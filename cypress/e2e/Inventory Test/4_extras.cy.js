@@ -67,6 +67,7 @@ describe('Inventory - Produtcs - Extras', () => {
 
     cy.get('[data-test="shopping-cart-badge"]').should('not.exist');
     cy.get('[data-test="remove-sauce-labs-backpack"]').should('have.length', 0);
+    cy.get('[data-test="remove-sauce-labs-bolt-t-shirt"]').should('have.length', 0);
   });
 
 });
